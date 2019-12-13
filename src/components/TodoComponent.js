@@ -23,7 +23,6 @@ export default class TodoComponent extends Component {
             <View style={styles.todoContainer} key={index}>
               <Text style={styles.todoText}>{todo.name}</Text>
               <View style={styles.buttonGroup}>
-
                 <Button buttonStyle={styles.editButton} title="Edit" onPress={this._handleEdit.bind(this, todo)} />
                 <Button buttonStyle={styles.deleteButton} title="Delete" onPress={this._handleDelete.bind(this, todo)} />
               </View>
@@ -88,7 +87,5 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     width: 150,
     backgroundColor: '#697D48'
-
   }
-
 });
