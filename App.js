@@ -4,7 +4,6 @@ import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 import Home from './src/screens/Home';
 
-// we will use these two screens later in our AppNavigator
 import AddTodo from './src/screens/AddTodo';
 import TodoList from './src/screens/TodoList';
 
