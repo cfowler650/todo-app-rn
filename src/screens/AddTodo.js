@@ -37,8 +37,6 @@ export default class AddTodo extends Component {
     } else {
       Alert.alert('Todo can not be empty!');
     }
-
-
   };
 
   render() {
@@ -67,10 +65,9 @@ const styles = StyleSheet.create({
     paddingRight: 30,
     flexDirection: 'column',
     justifyContent: 'flex-start',
-    // backgroundColor: 'rgb(38, 44, 45)'
     backgroundColor: '#202616'
-
   },
+  
   title: {
     color: "#EEE",
     fontSize: 24,
@@ -91,7 +88,6 @@ const styles = StyleSheet.create({
     borderColor: '#3E4A2B',
     borderRadius: 8,
     color: '#9FFF00',
-
   },
 
   buttonText: {
