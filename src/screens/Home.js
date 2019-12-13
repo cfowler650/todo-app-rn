@@ -21,7 +21,8 @@ export default class Home extends Component {
           title="View Todos"
           type="solid"
           buttonStyle={styles.button}
-          onPress={() => this.props.navigation.navigate('TodoList')} />
+          onPress={() => this.props.navigation.navigate('TodoList')} 
+        />
 
         <Text style={styles.divider}> </Text>
 
@@ -34,7 +35,6 @@ const styles = StyleSheet.create({
 
   headerContainer: {
     margin: 20,
-
   },
 
   header: {
